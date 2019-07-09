@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+         .nav li{
+            float:left;
+            position:relative;
+            text-align: center;
+             z-index:1000;
+            width:95px;
+        }
+
+        .anav:hover .nav ul li ol{
+            display:block;
+        }
+        .nav ul :hover ol{
+            display:block;
+        }
+        .nav ul li ol {
+            display: none;
+            position:absolute;
+            z-index:10000;
+            top:44px;
+            left:0;
+            margin-top:1px;
+            width:90px;
+            /*background:#089B0F;*/
+            padding:0px 3px 0px 3px;}
+        .nav ul li ol li{
+            width:90px;
+            line-height:28px;
+            text-align:center;
+            background:none !important;
+            border-bottom:1px dotted
+            #ffffff;
+            padding:0px !important;}
+        .b{
+            width:100%;
+            height:100px;
+            background-color: #fff000;
+        }
+    </style>
+</head>
+<body>
+
+
+        <div class="nav">
+            <ul>
+                <li class="current"><a href="#" class="anav">首页</a>
+                </li>
+                <li><a href="#" class="anav">景区概况</a>
+                    <ol>
+                        <li><a href="#">宣传视频</a></li>
+                        <li><a href="#">图说红河谷</a></li>
+                        <li><a href="">景点介绍</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" class="anav">电子政务</a>
+                    <ol>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">企业文化</a></li>
+                        <li><a href="#">网上投诉</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+<div class="b">
+
+</div>
+
+
+</body>
+</html>

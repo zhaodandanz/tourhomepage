@@ -1,0 +1,2 @@
+1.首页（home_page.html）在bigweb\html文件夹下。
+2.请用谷歌浏览器打开home_page.html页面。

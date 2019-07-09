@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        /*a{
+            text-decoration:none;}
+        a:hover{
+            text-decoration:underline;}
+        .margintop10{
+            margin-top:10px;}
+        .red{
+            background-color:#eb590a;}
+        .list{
+            display:block;}
+        .list_none{
+            display:none;}
+        .header{
+            width:1000px;
+            height:108px;
+            margin:0 auto;
+            background-color: #089B0F;
+        }*/
+        .header .headerR{
+            float:right;
+            padding-top:39px;}
+        .header .headerR .nav{
+            width:594px;
+            height:45px;
+            float:right;
+            /*background:url(../images/navbj.gif) no-repeat 0 0;*/}
+        .header .headerR .nav ul{
+            /*width:568px;
+            float:left;
+            padding:0px 16px 0 10px;*/
+            width:594px;
+            float:left;}
+        .header .headerR .nav li{
+            float:left;
+            /* background:url(../images/libj.gif) no-repeat right 8px;
+             padding:0px 21px;*/
+            position:relative;
+            z-index:1000;
+            width:95px;
+            text-align:center;}
+        .header .headerR .nav li a.anav{
+            font-size:14px;
+            line-height:45px;
+            font-family:"Microsoft YaHei","SimSun";
+            color:#FFF;
+        }
+        .nav ul li .anav :hover{
+            color:#fff000 !important;}
+        .header .headerR .nav li.current a.anav{
+            color:#fff000;}
+        .anav:hover .nav ul li ol{
+            display:block;
+        }
+
+        .nav ul li ol {
+            position:absolute;
+            z-index:10000;
+            top:44px;
+            left:0;
+            margin-top:1px;
+            width:90px;
+            background:#089B0F;
+            padding:0px 3px 0px 3px;}
+        .nav ul li ol li{
+            width:90px;
+            line-height:28px;
+            text-align:center;
+            background:none !important;
+            border-bottom:1px dotted #ffffff;
+            padding:0px !important;}
+        /* .nav ul li ol li a{
+             font-size:12px;
+             color:#FFF;}
+         .nav ul li ol li a:hover{
+             text-decoration:underline;
+             background-color:#ffffff;
+             color:#089B0F;
+             padding:2px 5px;}*/
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="headerR">
+        <div class="nav">
+            <ul>
+                <li class="current"><a href="#" class="anav">首页</a>
+                </li>
+                <li><a href="#" class="anav">景区概况</a>
+                    <ol>
+                        <li><a href="#">宣传视频</a></li>
+                        <li><a href="#">图说红河谷</a></li>
+                        <li><a href="">景点介绍</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" class="anav">电子政务</a>
+                    <ol>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">企业文化</a></li>
+                        <li><a href="#">网上投诉</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
